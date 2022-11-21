@@ -14,3 +14,9 @@ cat lorem/at.txt
 whoami
 pwd
 ls lorem/*txt
+wc -l < lorem/sed.txt
+ls -dq lorem* | wc -l
+read name
+echo $name
+mkdir $name
+rmdir $name
